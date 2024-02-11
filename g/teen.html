@@ -1,110 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GALAXY LEARNING</title>
     <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-.red-box {
-    background-image: url('ima/s3.png'); /* Replace 'your-image-file.jpg' with the path to your image */
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    border-radius: 50px;
-    /* Optionally, you can set a fixed height and width for the container */
-    width: 1600px;
-    height:1700px;
-}
-
-        h1 {
-            color: white; /* Set text color to contrast with red background */
+        .red-box {
+            padding: 50px;
         }
 
-        .image-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 20px;
+        img {
+            width: 45%;
+            border-radius: 20px;
         }
 
-        .left-image img {
-            width: 500px; /* Adjust as needed */
-            height: auto; /* Maintain aspect ratio */
-        }
-
-        .right-text {
-            max-width: 600px; /* Adjust as needed */
-            background-color: #ffcccb; /* Light Red for the first text */
-            padding: 20px;
-            height: 300px; /* Adjust as needed */
-        }
-
-        .second-container .right-text {
-            background-color: #ffffcc; /* Light Yellow for the second text */
+        html {
+            background-color: #000;
         }
     </style>
 </head>
 
 <body>
-    <div class="top-bar">
-        <h1>GALAXY LEARNING</h1>
+    <div class="top-bar navbar">
+        <a href="index.html">
+            <h1>GALAXY LEARNING</h1>
+        </a>
         <ul class="nav-links">
-            <li><a href="space.html" class="yellow">Progress</a></li>
-            <li><a href="child.html" class="red">Child</a></li>
-            <li><a href="teen.html" class="yellow">Teen</a></li>
-            <li><a href="adult.html" class="green">Adult</a></li>
+            <li><a href="space.html" class=" nav-btn">Overview</a></li>
+            <li><a href="child.html" class="nav-btn">Child</a></li>
+            <li><a href="teen.html" class=" nav-btn">Teen</a></li>
+            <li><a href="adult.html" class=" nav-btn">Adult</a></li>
         </ul>
     </div>
     <div class="red-box">
         <h1>The 'Cosmic Chronicles' app enriches teenage minds with captivating stories that
-             seamlessly integrate science and imagination. Exploring new moons and their orbits
-              becomes an exciting journey, fostering astronomical curiosity and knowledge. 
-              This innovative approach makes learning about space an engaging and informative experience for teens.
-         </h1>
-        <div class="image-container">
-            <div class="left-image">
-                <a href="morn.html">
-                    <img src="ima/17.jpg" alt="Image 1">
-                </a>
-            </div>
-            <div class="right-text">
-                <h1>Titan's Quest</h1>
-                <p style="font-size: 18px;">   Embark on Titan's Quest in the 'Cosmic Chronicles' app, where the focus turns to Saturn's
-                     intriguing moon, Titan. Join a group of teenage space explorers as
-                     they set out on a mission to uncover the mysteries of Titan's vast landscapes and methane lakes.             </p>
-            </div>
-        </div>
+            seamlessly integrate science and imagination. Exploring new moons and their orbits
+            becomes an exciting journey, fostering astronomical curiosity and knowledge.
+            This innovative approach makes learning about space an engaging and informative experience for teens.
+        </h1>
 
-        <div class="image-container second-container">
-            <div class="left-image">
-                <a href="fear.html">
-                    <img src="ima/download.jpg" alt="Image 3">
-                </a>
+
+        <section class="container">
+            <div class="cont">
+                <img src="ima/physical.jpg" alt="Image 1">
+                <div class="desc">
+                    <h1>Titan's Quest</h1>
+                    <p> "Embark on Titan's Quest in the 'Cosmic Chronicles' app, where the focus turns to Saturn's
+                        intriguing moon, Titan. Join a group of teenage space explorers as
+                        they set out on a mission to uncover the mysteries of Titan's vast landscapes and methane lakes."
+                    </p>
+                </div>
             </div>
-            <div class="right-text">
-                <h1>Lunar Enigma</h1>
-                <p style="font-size: 18px;">Venture into the unknown with "Lunar Enigma" as the 'Cosmic Chronicles'
-                     app introduces a mysterious moon in an unexplored corner of our galaxy. 
-                </p>
+
+            <div class="cont">
+                <div class="desc">
+                    <h1>Lunar Enigma</h1>
+                    <p>"Venture into the unknown with "Lunar Enigma" as the 'Cosmic Chronicles'
+                        app introduces a mysterious moon in an unexplored corner of our galaxy."
+                    </p>
+                </div>
+                <img src="ima/vr-glasses.jpg" alt="Image 3">
             </div>
-        </div>
-        
-        <div class="image-container second-container">
-            <div class="left-image">
-                <a href="physical.html">
-                    <img src="ima/15.jpg" alt="Image 3">
-                </a>
+
+            <div class="cont">
+                <img src="ima/space-exploration.jpg" alt="Image 3">
+                <div class="desc">
+                    <h1>Quest for the Celestial Orphan</h1>
+                    <p>"Embark on the "Quest for the Celestial Orphan,"
+                        a tale centered around the discovery of a new and unknown planet in the vastness of space.
+                        The 'Cosmic Chronicles' app takes teens on an
+                        interstellar journey with a group of young astronomers who stumble upon an uncharted celestial
+                        body."
+                    </p>
+                </div>
             </div>
-            <div class="right-text">
-                <h1>Quest for the Celestial Orphan</h1>
-                <p style="font-size: 18px;">Embark on the "Quest for the Celestial Orphan," 
-                    a tale centered around the discovery of a new and unknown planet in the vastness of space. 
-                    The 'Cosmic Chronicles' app takes teens on an 
-                    interstellar journey with a group of young astronomers who stumble upon an uncharted celestial body.
-                </p>
-            </div>
-        </div>
-    
+
 </body>
+
 </html>

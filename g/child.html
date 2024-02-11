@@ -1,113 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GALAXY LEARNING</title>
     <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-.red-box {
-    background-image: url('ima/s1.jpg'); /* Replace 'your-image-file.jpg' with the path to your image */
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    border-radius: 50px;
-    /* Optionally, you can set a fixed height and width for the container */
-    width: 1700px;
-    height:1500px;
-}
- .h1 {
-            color: white; /* Set text color to contrast with red background */
+        .red-box {
+            padding: 50px;
         }
 
-        .image-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 20px;
+        img {
+            width: 45%;
+            border-radius: 20px;
         }
 
-        .left-image img {
-            width: 500px; /* Adjust as needed */
-            height: auto; /* Maintain aspect ratio */
-        }
-
-        .right-text {
-            max-width: 600px; /* Adjust as needed */
-            background-color: #ffcccb; /* Light Red for the first text */
-            padding: 20px;
-            height: 300px; /* Adjust as needed */
-        }
-
-        .second-container .right-text {
-            background-color: #ffffcc; /* Light Yellow for the second text */
+        html{
+            background-color: #2C3E50;
         }
     </style>
 </head>
 
 <body>
-    <div class="top-bar">
-        <h1>GALAXY LEARNING</h1>
+    <div class="top-bar navbar">
+        <a href="index.html">
+            <h1>GALAXY LEARNING</h1>
+        </a>
         <ul class="nav-links">
-            <li><a href="space.html" class="yellow">Progress</a></li>
-            <li><a href="child.html" class="red">Child</a></li>
-            <li><a href="teen.html" class="yellow">Teen</a></li>
-            <li><a href=".html" class="green">Adult</a></li>
+            <!-- <li><a href="index.html" class="red">Home</a></li> -->
+            <!-- <li><a href="space.html" class="yellow nav-btn">Your Tour</a></li> -->
+            <li><a href="space.html" class=" nav-btn">Overview</a></li>
+            <li><a href="child.html" class="nav-btn">Child</a></li>
+            <li><a href="teen.html" class=" nav-btn">Teen</a></li>
+            <li><a href="adult.html" class=" nav-btn">Adult</a></li>
         </ul>
     </div>
-    <div class="red-box"><h1>
-        The 'Galaxy Adventure' app offers an engaging blend of captivating stories and educational content, 
-        making astronomy accessible for children. Imagination meets learning as young minds explore planets, moons, and cosmic wonders,
-         fostering curiosity and a love for space exploration in an interactive and age-appropriate manner.
-      </h1>
-        <div class="image-container">
-            <div class="left-image">
-                <a href="morn.html">
-                    <img src="ima/11.webp" alt="Image 1">
-                </a>
-            </div>
-            <div class="right-text">
-                <h1>Venusian Voyages</h1>
-                <p style="font-size: 18px;">"Mercurian Marvels"
-                    Once upon a time, in the magical realm of Mercury, there lived adorable aliens, 
-                    playful princesses, and wise kings. 
-                    The Mercurian Marvels were unique, with shimmering scales that sparkled like the stars. In this enchanted land,
-                     the rain was not like the rain on Earth.              </p>
-            </div>
-        </div>
+    <div class="red-box">
+        <h1>
+            The 'Galaxy Adventure' app offers an engaging blend of captivating stories and educational content,
+            making astronomy accessible for children. Imagination meets learning as young minds explore planets, moons,
+            and cosmic wonders,
+            fostering curiosity and a love for space exploration in an interactive and age-appropriate manner.
+        </h1>
 
-        <div class="image-container second-container">
-            <div class="left-image">
-                <a href="fear.html">
-                    <img src="ima/12.jpg" alt="Image 3">
-                </a>
+        <section class="container">
+            <div class="cont">
+                <img src="ima/11.webp" alt="Image 1">
+                <div class="desc">
+                    <h1>Venusian Voyages</h1>
+                    <p>"
+                        Once upon a time, in the magical realm of Mercury, there lived adorable aliens,
+                        playful princesses, and wise kings.
+                        The Mercurian Marvels were unique, with shimmering scales that sparkled like the stars. In this
+                        enchanted land,
+                        the rain was not like the rain on Earth." </p>
+                </div>
             </div>
-            <div class="right-text">
-                <h1>Mercurian Marvels</h1>
-                <p style="font-size: 18px;"><p>Venturing further into the galaxy, the 'Galaxy Adventure' app introduced children to Venus,
-                     the planet of love and mystery. On Venus, vibrant flowers bloomed in every imaginable color, filling the air with sweet fragrances.
+
+            <div class="cont">
+                <div class="desc">
+                    <h1>Mercurian Marvels</h1>
+
+                    <p>"Venturing further into the galaxy, the 'Galaxy Adventure' app introduced children to Venus,
+                        the planet of love and mystery. On Venus, vibrant flowers bloomed in every imaginable color,
+                        filling the air with sweet fragrances."
+                    </p>
+                </div>
+                <img src="ima/12.jpg" alt="Image 3">
+            </div>
+
+            <div class="cont">
+                <img src="ima/17.jpg" alt="Image 3">
+                <div class="desc">
+                    <h1>
+                        Martian Mischief
+                    </h1>
+                    <p>
+                       "In the red landscapes of Mars, mischievous Martian creatures called Gizmos roamed freely.
+                        The 'Galaxy Adventure' app shared the tale of a young Gizmo named Zara, who embarked on Martian
+                        Mischief adventures with her friends."
+                    </p>
+                </div>
+            </div>
+        </section>
 
 
-                </p>
-            </div>
-        </div>
-        
-        <div class="image-container second-container">
-            <div class="left-image">
-                <a href="physical.html">
-                    <img src="ima/17.jpg" alt="Image 3">
-                </a>
-            </div>
-            <div class="right-text">
-                <h1></h1>
-                <p style="font-size: 18px;">Martian Mischief<p>
-                    In the red landscapes of Mars, mischievous Martian creatures called Gizmos roamed freely.
-                     The 'Galaxy Adventure' app shared the tale of a young Gizmo named Zara, who embarked on Martian Mischief adventures with her friends.
-
-
-                </p>
-            </div>
-        </div>
-    
 </body>
+
 </html>
